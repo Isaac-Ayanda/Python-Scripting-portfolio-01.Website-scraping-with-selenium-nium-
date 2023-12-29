@@ -1,1 +1,1 @@
-# Portfolio of Python scripting projects
+# Portfolio of Automation projects using Python
