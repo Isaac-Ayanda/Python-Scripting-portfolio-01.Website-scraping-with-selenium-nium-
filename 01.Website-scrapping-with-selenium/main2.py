@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-
+import time
 service = Service ('c:\\Users\\User\\Downloads\\chromedriver.exe')
 
 def get_driver():
@@ -19,7 +19,8 @@ def get_driver():
 
 def main():
     driver = get_driver()
-    element = driver.find_element(by="xpath", value="/html/body/div[1]/div/h1[1]")
+    time.sleep(2)
+    element = driver.find_element(by="xpath", value="/html/body/div[1]/div/h1[2]")
     return element.text
 
 print(main())

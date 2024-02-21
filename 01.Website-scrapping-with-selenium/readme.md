@@ -1,7 +1,7 @@
 #  Website Scrapping with Python and Selenium
 
 ## The goal of this project is to scrap text from the following website:
-![website ](./images/website.png)
+![Text ](./images/website.png)
 -- Selenuim is a third party python library that can be used to automate browser actions such as coping text from a web page, clicking on a link, and more.
 
 - Install Selenium after installing python and it is has been added to environmental variables ( Am using VScode on Windows o/s and python 3.12):
@@ -47,9 +47,16 @@ Add options to the webdrivers. options is an instance of the ChromeOptions.
 Then we link the driver to the web page to be scrapped using the "driver.get() and pass the url of the website as a string and return the driver for the webpage
 Then we create another function with a variable driver that calls the function get_driver  and extract xpath of the inspect element. i.e the xpath of the text to be scrapped.
 
-
-
-
-## Scapped Output
+### Scapped Output
 ![Scapped output ](./images/scrapped-output.png)
+
+#### Next we look at scrapping the dynamic figure from the website.
+![dynamic number](./images/website2.png)
+#### Inspect the browser page till the dynamic text is higlighted
+![inspecting the element](./images/website3.png)
+
+#### Then copy the full xpath and replace it with the value of the element. Also you can import and time module to allow some delay then run the code
+![inspecting the element](./images/xpatch.png)
+### Scapped Output
+![Scapped output ](./images/scrapped-output2.png)
 
