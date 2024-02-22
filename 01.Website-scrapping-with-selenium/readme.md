@@ -59,4 +59,7 @@ Then we create another function with a variable driver that calls the function g
 ![inspecting the element](./images/xpatch.png)
 ### Scapped Output
 ![Scapped output ](./images/scrapped-output2.png)
-
+### Update the script to split the output such that only the dynamic number is retured
+![dynamic text returned](./images/scriptupdate.png)
+### Scapped Output
+![Scapped output ](./images/scrapped-output3.png)
