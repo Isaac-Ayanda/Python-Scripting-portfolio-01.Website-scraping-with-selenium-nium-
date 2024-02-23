@@ -47,7 +47,7 @@ Add options to the webdrivers. options is an instance of the ChromeOptions.
 Then we link the driver to the web page to be scrapped using the "driver.get() and pass the url of the website as a string and return the driver for the webpage
 Then we create another function with a variable driver that calls the function get_driver  and extract xpath of the inspect element. i.e the xpath of the text to be scrapped.
 
-### Scapped Output
+### Output
 ![Scapped output ](./images/scrapped-output.png)
 
 #### Next we look at scrapping the dynamic figure from the website.
@@ -57,14 +57,14 @@ Then we create another function with a variable driver that calls the function g
 
 #### Then copy the full xpath and replace it with the value of the element. Also you can import and time module to allow some delay then run the code
 ![inspecting the element](./images/xpatch.png)
-### Scapped Output
+### Output
 ![Scapped output ](./images/scrapped-output2.png)
 ### Update the script to split the output such that only the dynamic number is retured
 ![dynamic text returned](./images/scriptupdate.png)
-### Scapped Output
+### Output
 ![Scapped output ](./images/scrapped-output3.png)
 
 ### Next we look at creating a script that logs in to the website by supplying a correct credential and then clicking on the home menu.
-![dynamic text returned](./images/scriptupdate.png)
-### Scapped Output
+![dynamic text returned](./images/scriptologin.png)
+### Output
 ![Scapped output ](./images/scrapped-output4.png)
