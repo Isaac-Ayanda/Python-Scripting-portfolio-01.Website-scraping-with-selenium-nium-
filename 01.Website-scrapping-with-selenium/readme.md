@@ -1,11 +1,11 @@
-##  Website Scrapping with Python and Selenium
+#  Website Scrapping with Python and Selenium
 
 ## The goal of this project is to scrap text from the following website:
 ![Text ](./images/website.png)
 -- Selenuim is a third party python library that can be used to automate browser actions such as coping text from a web page, clicking on a link, and more.
 
 - Install Selenium after installing python and it is has been added to environmental variables ( Am using VScode on Windows o/s and python 3.12):
-```
+``` 
  > pip install selenium or python3 -m pip install selenium
 ```
 ![Scapped output ](./images/install-selenium.png)
