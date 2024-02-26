@@ -63,8 +63,3 @@ Then we create another function with a variable driver that calls the function g
 ![dynamic text returned](./images/scriptupdate.png)
 #### Output
 ![Scapped output ](./images/scrapped-output3.png)
-
-#### Next we look at creating a script that logs in to the website by supplying a correct credential and then clicking on the home menu.
-![dynamic text returned](./images/scriptologin.png)
-#### Output
-![Scapped output ](./images/scrapped-output4.png)
