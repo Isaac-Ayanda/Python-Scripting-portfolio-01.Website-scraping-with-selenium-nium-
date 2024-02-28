@@ -16,7 +16,7 @@ def get_driver():
 
 def main():
     driver = get_driver()
-    element = driver.find_element(by="id", value="id_username").send_keys
-    return element.text
+    driver.find_element(by="id", value="id_username").send_keys("automated")
+    
 
 print(main()) 
