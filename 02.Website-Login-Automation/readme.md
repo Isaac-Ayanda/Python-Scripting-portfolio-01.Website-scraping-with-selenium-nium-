@@ -5,6 +5,7 @@
 ![Login page](./images/loginpage.png)
 
 ### By inspecting the elements of the username and password input boxes on the webpage; we use find_element by  id since the input elements has an id attribute. 
-![Webpage Inspect](./images/inspect.png)
-### Then write the script that uses the supplied credential to login to the page use the send.keys functions by expecting "automated" as imput.  
+![Inspect element username](./images/inspect.png)
+![Inspect element password](./images/inspect2.png)
+### Then write the script that uses the supplied credential to login to the page using the send.keys functions which expecting "automated" as username annd "automatedautomated" as the password.
 ![Script](./images/codeupdate.png)
