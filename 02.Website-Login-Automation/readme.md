@@ -1,6 +1,6 @@
 #  Website  Login Automation
 
-## The goal of this project is to create a script that will automatically imput credentials to a wesbite login, login successfully and perform the functions such as clicking the home menu:
+## The goal of this project is to create a script that will automate the login into a website using supplied credentials  and perform further functions such as clicking on the home menu:
 
 ![Login page](./images/loginpage.png)
 
