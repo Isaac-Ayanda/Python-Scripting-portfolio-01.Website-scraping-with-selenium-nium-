@@ -1,5 +1,6 @@
 from selenium import webdriver
-
+from selenium.webdriver.common.keys import Keys
+import time
 def get_driver():
     # Set options to make browsing easier
     options = webdriver.ChromeOptions()
@@ -17,7 +18,10 @@ def get_driver():
 def main():
     driver = get_driver()
     driver.find_element(by="id", value="id_username").send_keys("automated")
-    driver.find_element(by="id", value="id_password").send_keys("automatedautomated")
-    
+    time.sleep(2)
+    driver.find_element(by="id", value="id_password").send_keys("automatedautomated" + Keys.RETURN)
+    time.sleep(2)
+    driver.find_element(by="xpath", value="/html/body/nav/div/a").click
+    time.sleep(2)
 
 print(main()) 
