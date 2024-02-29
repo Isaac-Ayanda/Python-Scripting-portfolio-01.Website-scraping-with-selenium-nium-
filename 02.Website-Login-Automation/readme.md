@@ -9,3 +9,11 @@
 ![Inspect element password](./images/inspect2.png)
 ### Then write the script that uses the supplied credential to login to the page using the send.keys functions which expecting "automated" as username annd "automatedautomated" as the password.
 ![Script](./images/codeupdate.png)
+### To see the script in action, add a delay in between both actions with 2 seconds using the time module. Then import an object from selenium that helps to press enter from the key board using RETURN key
+![Script  with delay](./images/codeupdateWT.png)
+![Script  with delay](./images/codeupdateWT.png)
+### Action
+![Login](./images/login.png)
+![Login](./images/login2.png)
+### Next is to perform other functions after login and in this case is to click on the Home menu. To do this, we use the xpath of the home menu
+![Login](./images/login2.png)
