@@ -15,6 +15,11 @@ def get_driver():
     driver.get("http://automated.pythonanywhere.com/login/")
     return driver
 
+def clean_text(text):
+    # Extract only the temperature from text
+    output = float(text.split(": ")[1])
+    return output
+
 def main():
     driver = get_driver()
 
@@ -24,8 +29,12 @@ def main():
     driver.find_element(by="id", value="id_password").send_keys("automatedautomated" + Keys.RETURN)
     time.sleep(2)
 
-    # Click on the home page, delay or 2 sec and then scrap the dynamic temporature values
-    driver.find_element(by="xpath", value="/html/body/nav/div/a").click
+    # Click on the home page, delay or 2 second
+    driver.find_element(by="xpath", value="/html/body/nav/div/a").click()
     time.sleep(2)
+
+    # Scrap the dynamic temperature value
+    text = driver.find_element(by="xpath", value="/html/body/div[1]/div/h1[2]").text
+    return clean_text(text)
 
 print(main()) 
