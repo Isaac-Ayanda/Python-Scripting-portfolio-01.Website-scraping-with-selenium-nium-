@@ -17,10 +17,14 @@ def get_driver():
 
 def main():
     driver = get_driver()
+
+    # look for the credential input and enter the username and password
     driver.find_element(by="id", value="id_username").send_keys("automated")
     time.sleep(2)
     driver.find_element(by="id", value="id_password").send_keys("automatedautomated" + Keys.RETURN)
     time.sleep(2)
+
+    # Click on the home page, delay or 2 sec and then scrap the dynamic temporature values
     driver.find_element(by="xpath", value="/html/body/nav/div/a").click
     time.sleep(2)
 
