@@ -15,5 +15,5 @@
 ### Action
 ![Login](./images/login.png)
 ![Login](./images/login2.png)
-### Next is to perform other functions after login like clicking on the Home menu for insntance. To do this, we use the xpath of the home menu
+### Next is to perform other functions after login like clicking on the Home menu for insntance. To do this, we use the xpath of the home menu. Also we want to scrap the dynamic figure of the average world temporature:
 ![Login](./images/xpathh.png)
