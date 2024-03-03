@@ -17,3 +17,5 @@
 ![Login](./images/login2.png)
 ### Next is to perform other functions after login like clicking on the Home menu for insntance. To do this, we use the xpath of the home menu. Also we want to scrap the dynamic figure of the average world temporature:
 ![Login](./images/xpathh.png)
+![Dynamic figure](./images/dynamic-output1.png)
+![Dynamic output](./images/dynamic-output.png)
