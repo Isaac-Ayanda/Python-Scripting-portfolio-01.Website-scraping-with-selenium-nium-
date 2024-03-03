@@ -19,3 +19,6 @@
 ![Login](./images/xpathh.png)
 ![Dynamic figure](./images/dynamic-output1.png)
 ![Dynamic output](./images/dynamic-output.png)
+
+### Taking a step further to extract the dynamic temperature at intervals and save it into a file. We use a loop and modify the script accordingly.
+
