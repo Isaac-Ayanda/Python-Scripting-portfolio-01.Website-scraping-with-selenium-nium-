@@ -20,5 +20,5 @@
 ![Dynamic figure](./images/dynamic-output1.png)
 ![Dynamic output](./images/dynamic-output.png)
 
-### Taking a step further to extract the dynamic temperature at intervals and save it into a file. We use a loop and modify the script accordingly.
-
+### Futher step would be to extract and save the temperature into a generate a file in two seconds.  We use a loop and modify the script accordingly to write the values to a text file  
+![generate file](./images/generatef.png)
