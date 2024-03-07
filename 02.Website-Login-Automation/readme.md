@@ -24,3 +24,7 @@
 ![generate file](./images/generatef.png)
 ### Action
 ![generate file](./images/generatef2.png)
+
+## Another Login Automation Example
+### Here we create an account on a retailer website and creat a script that login and click on the contact us menu
+
