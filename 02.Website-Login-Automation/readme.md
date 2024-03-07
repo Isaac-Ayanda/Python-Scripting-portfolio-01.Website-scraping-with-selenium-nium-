@@ -20,7 +20,7 @@
 ![Dynamic figure](./images/dynamic-output1.png)
 ![Dynamic output](./images/dynamic-output.png)
 
-### Futher step would be to extract and save the temperature into generated files every two seconds.  We use a loop and modify the script accordingly to write the values to a text file with the name of the file as the date and time the values are saved.   
+### Futher step would be to extract and save the temperature into generated files every two seconds.  We use a loop and modify the script accordingly to extract the values to a text file with the name of the file as the date and time the values that are saved.   
 ![generate file](./images/generatef.png)
 ### Action
 ![generate file](./images/generatef2.png)
