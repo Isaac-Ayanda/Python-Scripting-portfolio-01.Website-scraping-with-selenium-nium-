@@ -15,26 +15,26 @@ def get_driver():
     driver.get("https://titan22.com/account/login")
     return driver
 
-def clean_text(text):
-    # Extract only the temperature from text
-    output = float(text.split(": ")[1])
-    return output
+# def clean_text(text):
+#     # Extract only the temperature from text
+#     output = float(text.split(": ")[1])
+#     return output
 
 def main():
     driver = get_driver()
 
     # look for the credential input and enter the username and password
-    driver.find_element(by="id", value="id_username").send_keys("automated")
+    driver.find_element(by="id", value="id_username").send_keys("Isaac867")
     time.sleep(2)
-    driver.find_element(by="id", value="id_password").send_keys("automatedautomated" + Keys.RETURN)
+    driver.find_element(by="id", value="id_password").send_keys("ComeIn77?" + Keys.RETURN)
     time.sleep(2)
 
     # Click on the home page, delay or 2 second
     driver.find_element(by="xpath", value="/html/body/nav/div/a").click()
     time.sleep(2)
 
-    # Scrap the dynamic temperature value
-    text = driver.find_element(by="xpath", value="/html/body/div[1]/div/h1[2]").text
-    return clean_text(text)
+    # # Scrap the dynamic temperature value
+    # text = driver.find_element(by="xpath", value="/html/body/div[1]/div/h1[2]").text
+    # return clean_text(text)
 
 print(main()) 
