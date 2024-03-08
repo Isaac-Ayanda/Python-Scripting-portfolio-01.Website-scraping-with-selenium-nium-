@@ -28,3 +28,4 @@
 ## Another Login Automation Example
 ### Here we create an account on a retailer website and creat a script that login and click on the contact us menu
 
+![generate file](./images/generatef2.png)
