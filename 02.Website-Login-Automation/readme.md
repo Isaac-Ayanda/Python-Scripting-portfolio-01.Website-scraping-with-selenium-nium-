@@ -35,4 +35,9 @@
 [Click to watch - Video of Runing Script](https://drive.google.com/file/d/1AEf8WZoZ9Lfm1HO4Az9eIbGdVofLVXbX/view?usp=sharing)
 ![Script run successfully](./images/script-ran.png)
 
+## Futher Automation Example - Extracting Real-Time currency rates
+###  At 
+
+![Code Script](./images/login-retail-scripta.png)
+![Script Run Successfully](./images/login-retail-script.png)
 
