@@ -28,4 +28,11 @@
 ## Another Login Automation Example
 ### Here we create an account on a retailer website and creat a script that login and click on the contact us menu
 
-![generate file](./images/generatef2.png)
+![Code Script](./images/login-retail-scripta.png)
+![Code Script](./images/login-retail-script.png)
+
+### Action
+[Click to watch - Video of Runing Script](https://drive.google.com/file/d/1AEf8WZoZ9Lfm1HO4Az9eIbGdVofLVXbX/view?usp=sharing)
+![Script run successfully](./images/script-ran.png)
+
+
