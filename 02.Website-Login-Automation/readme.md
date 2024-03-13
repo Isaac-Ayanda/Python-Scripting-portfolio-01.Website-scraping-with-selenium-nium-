@@ -36,7 +36,10 @@
 ![Script run successfully](./images/script-ran.png)
 
 ## Futher Automation Example - Extracting Real-Time currency rates
-### From x-rates we scrap real-time currency rates between two pair of currencies. The manual approach is to go to the currency calculator on the website and type in the desired currency pair to see the current rate. By observing  url changes we able to set appropriate url attributes.
+### From x-rates we scrap real-time currency rates between two pair of currencies. The manual approach is to go to the currency calculator on the website and type in the desired currency pair to see the current rate. By observing  url changes we able to set appropriate url attributes. Then we can use beatiful soup library to scrap the rates directly. 
+```
+You can install beatiful soup using: >pip install beautifulsoup4
+```
 
 ![Code Script](./images/realtimerate1.png)
 ![Code Script](./images/realtimerate2.png)
