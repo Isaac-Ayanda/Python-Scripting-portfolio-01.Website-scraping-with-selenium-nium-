@@ -51,3 +51,5 @@ If you dont have it already, you can install request using: >pip install request
 ![Code Script](./images/get-url-content.png)
 ![Code Script](./images/get-url-content2.png)
 
+### From the source code we only want to extract the exchange rate value therefore we pass the url source code through beatiful soup to identify the element of the value and reference its class to extract only the rate value.
+![Code Script](./images/get-currency.png)
