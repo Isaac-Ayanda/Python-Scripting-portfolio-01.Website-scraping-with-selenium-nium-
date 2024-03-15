@@ -40,6 +40,11 @@
 ```
 You can install beatiful soup using: >pip install beautifulsoup4
 ```
+#### First we construct the url for dynamic currency rates then access the source code on that page using request
+```
+You can install request using: >pip install request
+```
+
 
 ![Code Script](./images/realtimerate1.png)
 ![Code Script](./images/realtimerate2.png)
