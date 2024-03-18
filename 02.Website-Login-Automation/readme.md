@@ -53,6 +53,10 @@ If you dont have it already, you can install request using: >pip install request
 ![Code Script](./images/get-url-content2.png)
 
 ### From the source code we only want to extract the exchange rate value therefore we pass the url source code through beatiful soup to identify the element of the value and reference its class to extract only the rate value.
-![Code Script](./images/get-currency.png)
-![Code Script](./images/rate1.png)
-![Code Script](./images/rate2.png)
+![scrap currency script](./images/get-currency.png)
+![scrap currency script](./images/rate1.png)
+![outpt](./images/rate2.png)
+
+### We can take a step further to reduce the decimal of the output and can also convert it into a float type if further calculations are do be done.
+![scrapped currency script](./images/pair-rate.png)
+![scrapped result](./images/scrapped-result.png)

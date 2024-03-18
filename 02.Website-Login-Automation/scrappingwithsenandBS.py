@@ -7,5 +7,9 @@ def get_currency(input_currency, output_currency):
     soup = BeautifulSoup(content, 'html.parser')
     soup.find('span', class_="ccOutputRslt")
     rate = soup.find('span', class_="ccOutputRslt").get_text()
-    print(rate)
-get_currency('INR', 'USD')
+    rate = float(rate[:-4])
+    
+    return rate
+
+current_rate = get_currency('INR', 'USD')
+print(current_rate)
