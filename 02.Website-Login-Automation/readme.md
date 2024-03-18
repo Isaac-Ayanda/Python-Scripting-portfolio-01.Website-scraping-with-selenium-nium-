@@ -1,7 +1,8 @@
-#  Website  Login Automation
+#  Web Scrapping With Selenium and Beautiful Soup
 
-## The goal of this project is to create a script that will automate the login into a website using supplied credentials  and perform further functions such as clicking on the home menu:
+## The goal of this project is to create a script that will perform browser automation with Selenium and scrap data with Beautiful Soup.
 
+### First we analyse the website.
 ![Login page](./images/loginpage.png)
 
 ### By inspecting the elements of the username and password input boxes on the webpage; we use find_element by  id since the input elements has an id attribute. 
@@ -53,3 +54,5 @@ If you dont have it already, you can install request using: >pip install request
 
 ### From the source code we only want to extract the exchange rate value therefore we pass the url source code through beatiful soup to identify the element of the value and reference its class to extract only the rate value.
 ![Code Script](./images/get-currency.png)
+![Code Script](./images/rate1.png)
+![Code Script](./images/rate2.png)
