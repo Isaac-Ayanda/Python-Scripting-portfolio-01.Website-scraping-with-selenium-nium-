@@ -6,6 +6,6 @@ def get_currency(input_currency, output_currency):
     content = requests.get(url).text
     soup = BeautifulSoup(content, 'html.parser')
     soup.find('span', class_="ccOutputRslt")
-    currency = soup.find('span', class_="ccOutputRslt").get_text()
-    print(currency)
+    rate = soup.find('span', class_="ccOutputRslt").get_text()
+    print(rate)
 get_currency('INR', 'USD')
