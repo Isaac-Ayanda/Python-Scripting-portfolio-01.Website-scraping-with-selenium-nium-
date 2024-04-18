@@ -5,5 +5,6 @@ def get_news(country language='en',
 
 r = requests.get(url)
 content = r.json()
+articles = content['articles']
 
 print(content)
