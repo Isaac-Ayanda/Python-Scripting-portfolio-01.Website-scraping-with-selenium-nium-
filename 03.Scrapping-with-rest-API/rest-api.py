@@ -10,6 +10,4 @@ def get_news(country, api_key='890603a55bfa47048e4490069ebee18c'):
    results.append(f"TITLE\n'{article['title']}, '\nDESCRIPTION\n', {article['description']}")
  return results
 
-
-
-print(content)
+print(get_news(topic='space', from_date='2022-2-27', to_date='2022-2-28'))
