@@ -1,12 +1,13 @@
 import requests
 
-def get_news(country, api_key='890603a55bfa47048e4490069ebee18c'): url = f'https://newsapi.org/v2/top-headlines?country={country}&apiKey={api_key}'
+def get_news(country, api_key='890603a55bfa47048e4490069ebee18c'):
+     url = f'https://newsapi.org/v2/top-headlines?country={country}&apiKey={api_key}'
 
-r = requests.get(url)
-content = r.json()
-articles = content['articles']
-results = []
-for article in articles:
+ r = requests.get(url)
+ content = r.json()
+ articles = content['articles']
+ results = []
+ for article in articles:
 
 
 
