@@ -6,4 +6,4 @@ def get_weather(city, units='metrics', api_key='0051bfbc99fb4c3a9ce9bf684b8edd48
     content = r.json()
     return content
 
-print(get_news(country='us'))
+print(get_weather(city='washington'))
