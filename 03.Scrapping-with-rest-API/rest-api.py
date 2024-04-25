@@ -6,7 +6,7 @@ def get_weather(city, units='metric', api_key='0051bfbc99fb4c3a9ce9bf684b8edd48'
     content = r.json()
     with open('data.txt', 'a') as file:
         for dicty in content['list']:
-            file.write(f"dicty['dt_txt'], dicty['main']['temp'],dicty['weather'][0]['description']")
+            file.write(f"{dicty['dt_txt']}, {dicty['main']['temp']},{dicty['weather'][0]['description']}")
         # return content
 
 print(get_weather(city='washington'))
