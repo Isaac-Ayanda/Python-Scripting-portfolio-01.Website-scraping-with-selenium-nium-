@@ -7,5 +7,5 @@
 ### Write the Pyton SCript
 ![Text ](./images/scrip-api.png)
 
-### The Script generates weather forecast data such as City, Time, Temperature, and Condition for Washington accordingly. 
+### The Script generates weather forecast data such as City, Time, Temperature, and Condition for Washington accordingly and save it into the  data.txt file.
 ![Text ](./images/scrip-api.png)
