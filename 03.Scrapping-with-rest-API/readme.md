@@ -5,7 +5,7 @@
 ## Step
 #### Goto Openweathermap.org and click on the API menu, scroll down to the 5 Day / 3 Hour Forecast and select a free plan, then create a account  to get access the API key 
 ### Write the Pyton SCript
-![Text ](./images/scrip-api.png)
+![API script ](./images/scrip-api.png)
 
 #### The Script generates weather forecast data such as City, Time, Temperature, and Condition for Washington accordingly and save it into the  data.txt file.
-![Text ](./images/api-data.png)
+![Generated data ](./images/api-data.png)
