@@ -5,3 +5,4 @@
 ## Step
 ### Goto Openweathermap.org and click on the API menu, scroll down to the 5 Day / 3 Hour Forecast and select a free plan, then create a account  to get access the API key 
 #### Write the Pyton SCript
+![Text ](./images/script-api.png)
