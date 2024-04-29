@@ -6,3 +6,5 @@
 2. [WEBSITE-SCRAPPING-WITH-SELENIUM-AND-BEAUTIFUL-SOUP](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/02.Website-Login-Automation/readme.md)
 
 3. [INFORMATION-SCRAPPING-WITH-REST-API](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/03.Scrapping-with-rest-API/readme.md)
+
+4. [CREATED-CURRENCY-CONVERTER-API](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/04.Created-Currency-Converter-API/readme)
