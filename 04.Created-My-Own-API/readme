@@ -1,6 +1,6 @@
 #  Currency Converter API
 
-## The goal of this project is to create scripts that will convert currency pairs with REST API
+## The goal of this project is to create a rest API that return the current currency Pair
 
 ## Step
 #### An API is a small  web app. We use one of Python frameworks such as flasks and later deploy it on python anywhere or heroku or others in order to make it publicly accessible.
