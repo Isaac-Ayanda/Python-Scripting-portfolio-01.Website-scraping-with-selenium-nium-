@@ -6,4 +6,4 @@
 
 3. [INFORMATION-SCRAPPING-WITH-REST-API](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/03.Scrapping-with-rest-API/readme.md)
 
-4. [CREATED-MY-OWN-API](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/04.Created-Currency-Converter-API/readme.md)
+4. [CREATED-MY-OWN-API](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/04.Created-My-Own-API/readme.md)
