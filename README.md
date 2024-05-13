@@ -1,4 +1,3 @@
- 
 # Python Scripting projects Portfolio
 
 1. [WEBSITE-SCRAPPING-BASICS-WITH-SELENIUM](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/01.Website-scrapping-with-selenium/readme.md)
@@ -7,4 +6,4 @@
 
 3. [INFORMATION-SCRAPPING-WITH-REST-API](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/03.Scrapping-with-rest-API/readme.md)
 
-4. [CREATED-CURRENCY-CONVERTER-API](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/04.Created-Currency-Converter-API/readme)
+4. [CREATED-MY-OWN-API](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/04.Created-Currency-Converter-API/readme.md)
