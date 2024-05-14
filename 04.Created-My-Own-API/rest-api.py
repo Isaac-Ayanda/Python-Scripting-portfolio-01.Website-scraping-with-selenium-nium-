@@ -4,3 +4,5 @@ app = Flask(__name__)
 
 
 @app.route('/')
+def home():
+    return '<h1>Currency Rate API</h1> <p> Example URL: /api/vi/usd-eur</p>'
