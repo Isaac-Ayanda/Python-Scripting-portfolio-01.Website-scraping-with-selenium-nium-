@@ -21,6 +21,7 @@ def home():
 
 @app.route('api/v1/<in_cur>-<out_cur>')
 def api(in_cur, out_cur):
+    rate = get_currency(in_cur, out_cur)
 
 
 app.run(host='0.0.0.0')
