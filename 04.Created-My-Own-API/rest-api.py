@@ -12,7 +12,7 @@ def get_currency(in_currency, out_currency):
 
     return rate
 
-app = Flask(__name     __)
+app = Flask(__name__)
 
 
 @app.route('/')
