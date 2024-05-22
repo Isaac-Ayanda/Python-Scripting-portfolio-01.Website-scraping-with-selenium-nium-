@@ -1,4 +1,4 @@
-# Python Scripting projects Portfolio
+# Python Scripting Projects
 
 1. [WEBSITE-SCRAPPING-BASICS-WITH-SELENIUM](https://github.com/Isaac-Ayanda/Python-Scripting-portfolio/blob/main/01.Website-scrapping-with-selenium/readme.md)
 
